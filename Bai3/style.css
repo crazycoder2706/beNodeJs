@@ -1,0 +1,169 @@
+.container-chat{
+  width: 280px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.header{
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.header .avatar{
+  background-color: #FE5DA3;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 50%;
+  font-weight: bold;
+  color: aliceblue;
+  font-size: 14px;
+  line-height: 32px;
+}
+
+.header .name{
+  display: inline-block;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin-left: 8px;
+}
+
+.content{
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.content .incoming{
+  background-color: #ddd;
+  border-radius: 15px;
+  display: block;
+  max-width: 200px;
+  padding: 5px 10px;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+}
+
+.content .oucoming{
+  background-color: #FE5DA3;
+  margin: auto;
+  display: block;
+  color: aliceblue;
+  max-width: 200px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+}
+
+.footer .form{
+  display: block;
+  margin: 10px;
+}
+
+.footer .form input{
+  width: 190px;
+  height: 25px;
+  border: 1px solid #ddd;
+  border-radius: 13px;
+  padding: 0px 10px;
+  outline: none;
+}
+
+.footer .form button{
+  background-color: #FE5DA3;
+  border-radius: 15px;
+  border: 1px solid #FE5DA3;
+  height: 25px;
+  color: white;
+  padding: 0px 10px;
+  cursor: pointer;
+}
+
+.category{
+  display: block;
+}
+
+.category .item{
+    border: 1px solid #ddd;
+    display: inline-block;
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.category .item img{
+  height: 100px;
+  width: auto;
+}
+
+.category .item .tile{
+  font-size: 13px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.products{
+  display: block;
+}
+
+.products .itemProducts{
+  border: 1px solid #ddd;
+  display: inline-block;
+  width: 250px;
+  margin: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.products .itemProducts:hover{
+  background-color: red;
+  opacity: 0.7;
+}
+
+.products .itemProducts img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+}
+
+.products .title{
+ padding: 10px 5px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.products .title .nameProducts{
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.products .title .priceProducts{
+  color: green;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.products .title .moneySale{
+  color: red;
+  font-size: 14px;
+  text-decoration: line-through;
+  margin-bottom: 10px;
+}
+
+.products .title .saleProducts{
+  color: darkmagenta;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}

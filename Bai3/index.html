@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+  <!-- <h1>Title</h1>
+
+  <i class="fa-solid fa-user"></i> -->
+  <!-- thẻ inline-block bình thường mặc định thì giống inline nhưng
+    inline block có thể set được chiều rộng và chiều cao
+   -->
+
+  <!-- visibily ẩn đi nhưng vẫn chiếm diện tích -->
+  <!-- 
+  <style>
+      span{
+        background-color: yellow;
+        border: 2px solid black;
+      }
+
+      .block{
+        display: inline-block;
+        height: 300px;
+      }
+      .hiden{
+        display: none;
+      }
+  </style>
+
+  <p>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+    Eum nostrum sit, vel at quaerat
+    <span class="inline">inline1</span>
+    reprehenderit tempore
+    <span class="block">Block</span>
+    expedita eaque officiis
+    <span class="hiden">hiden</span>
+    <span class="inline">inline2</span>
+     necessitatibus cum cupiditate illum et,
+    aliquid deserunt autem deleniti. Repellat, magni.
+  </p> -->
+
+  <!-- z-index chỉ áp dụng cho thuộc tính có postion khác static -->
+
+  <h2>Câu 1 : Box chat</h2>
+
+  <p><b>Yêu cầu</b>: sử dụng HTML và CSS để code box chat sau</p>
+
+  <div class="container-chat">
+    <div class="header">
+      <div class="avatar">EY</div>
+      <div class="name">Em Yêu</div>
+    </div>
+    <div class="content">
+      <div class="incoming">A ơi sang nhà e nhá, nhà em không có ai cả</div>
+      <div class="oucoming">Thế à? Ok e iu</div>
+      <div class="incoming">Nhanh nha nhanh nha</div>
+      <div class="oucoming">Ck đến rồi mà thấy ai ở đâu e?Khóa cửa mà:&lpar;</div>
+      <div class="incoming">Thì em bảo nhà e không ai ở nhà mà :&rpar;&rpar;</div>
+    </div>
+    <div class="footer">
+
+      <form action="" class="form">
+        <input type="text" placeholder="Nhập nội dung...">
+        <button>
+          <i class="fa-solid fa-paper-plane"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <h2>Câu 2: Danh mục sản phẩm</h2>
+
+  <p><b>Yêu cầu</b>: sử dụng HTML và CSS để code box chat sau</p>
+
+  <div class="category">
+    <div class="item">
+      <img src="https://course-back-end.vercel.app/lessons/lesson-3/images/ao.png" alt="">
+      <div class="tile">Thời Trang Nam</div>
+    </div>
+
+    <div class="item">
+      <img src="https://course-back-end.vercel.app/lessons/lesson-3/images/dien-thoai.png" alt="">
+      <div class="tile">
+        Điện Thoại & phụ kiện
+      </div>
+    </div>
+    <div class="item">
+      <img src="https://course-back-end.vercel.app/lessons/lesson-3/images/may-tinh.png" alt="">
+      <div class="tile">
+        Thiết Bị Điện Tử
+      </div>
+    </div>
+    <div class="item">
+      <img src="https://course-back-end.vercel.app/lessons/lesson-3/images/may-anh.png" alt="">
+      <div class="tile">
+        Máy Ảnh & Máy quay phim
+      </div>
+    </div>
+    <div class="item">
+      <img src="https://course-back-end.vercel.app/lessons/lesson-3/images/dong-ho.png" alt="">
+      <div class="tile">
+        Đồng hồ
+      </div>
+    </div>
+    <div class="item">
+      <img src="https://course-back-end.vercel.app/lessons/lesson-3/images/giay.png" alt="">
+      <div class="tile">
+      Giày Dép Nam
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="https://course-back-end.vercel.app/lessons/lesson-3/images/me-va-be.png" alt="">
+      <div class="tile">
+        Mẹ & Bé
+      </div>
+    </div>
+    <div class="item">
+      <img src="https://course-back-end.vercel.app/lessons/lesson-3/images/noi.png" alt="">
+      <div class="tile">
+        Nhà Cửa & Đời Sống
+      </div>
+    </div>
+    <div class="item">
+      <img src="https://course-back-end.vercel.app/lessons/lesson-3/images/my-pham.png" alt="">
+      <div class="tile">
+        Sắc Đẹp
+      </div>
+    </div>
+    <div class="item">
+      <img src="https://course-back-end.vercel.app/lessons/lesson-3/images/tui.png" alt="">
+      <div class="tile">
+        Túi Ví Nữ
+      </div>
+    </div>
+  </div>
+
+  <h2>Câu 3: Danh mục sản phẩm</h2>
+
+  <p><b>Yêu cầu</b>: sử dụng HTML và CSS để code box chat sau</p>
+
+  <div class="products">
+    <div class="itemProducts">
+      <img src="https://course-back-end.vercel.app/lessons/lesson-3/images/pro-1.jpg" alt="">
+
+      <div class="title">
+        <div class="nameProducts">IPhone 9</div>
+        <div class="priceProducts">120.000đ</div>
+        <div class="moneySale">90.000đ</div>
+        <div class="saleProducts"> -30%</div>
+      </div>
+    </div>
+    
+    <div class="itemProducts">
+      <img src="https://course-back-end.vercel.app/lessons/lesson-3/images/pro-2.jpg" alt="">
+      
+      <div class="title">
+        <div class="nameProducts">IPhone X</div>
+        <div class="priceProducts">120.000đ</div>
+        <div class="moneySale">90.000đ</div>
+        <div class="saleProducts"> -30%</div>
+      </div>
+    </div>
+    <div class="itemProducts">
+      <img src="https://course-back-end.vercel.app/lessons/lesson-3/images/pro-3.jpg" alt="">
+      
+      <div class="title">
+        <div class="nameProducts">Samsung Universe 9</div>
+        <div class="priceProducts">120.000đ</div>
+        <div class="moneySale">90.000đ</div>
+        <div class="saleProducts"> -30%</div>
+      </div>
+    </div>
+    <div class="itemProducts">
+      <img src="https://course-back-end.vercel.app/lessons/lesson-3/images/pro-4.jpg" alt="">
+      
+      <div class="title">
+        <div class="nameProducts">OPPOF19</div>
+        <div class="priceProducts">120.000đ</div>
+        <div class="moneySale">90.000đ</div>
+        <div class="saleProducts"> -30%</div>
+      </div>
+    </div>
+    <div class="itemProducts">
+      <img src="https://course-back-end.vercel.app/lessons/lesson-3/images/pro-5.jpg" alt="">
+      
+      <div class="title">
+        <div class="nameProducts">Huawei P30</div>
+        <div class="priceProducts">120.000đ</div>
+        <div class="moneySale">90.000đ</div>
+        <div class="saleProducts"> -30%</div>
+      </div>
+    </div>
+    <div class="itemProducts">
+      <img src="https://course-back-end.vercel.app/lessons/lesson-3/images/pro-6.png" alt="">
+      
+      <div class="title">
+        <div class="nameProducts">MacBook Pro</div>
+        <div class="priceProducts">120.000đ</div>
+        <div class="moneySale">90.000đ</div>
+        <div class="saleProducts"> -30%</div>
+      </div>
+    </div>
+    <div class="itemProducts">
+      <img src="https://course-back-end.vercel.app/lessons/lesson-3/images/pro-7.jpg" alt="">
+      
+      <div class="title">
+        <div class="nameProducts">Samsung Galaxy Book</div>
+        <div class="priceProducts">120.000đ</div>
+        <div class="moneySale">90.000đ</div>
+        <div class="saleProducts"> -30%</div>
+      </div>
+    </div>
+    <div class="itemProducts">
+      <img src="https://course-back-end.vercel.app/lessons/lesson-3/images/pro-8.jpg" alt="">
+      
+      <div class="title">
+        <div class="nameProducts">Microsoft Surface Laptop4</div>
+        <div class="priceProducts">120.000đ</div>
+        <div class="moneySale">90.000đ</div>
+        <div class="saleProducts"> -30%</div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
