@@ -98,21 +98,30 @@
 
 //chạy lặp đi lặp lại sau 1 khoảng thời gian nào đó
 
-setInterval(function(){
-    console.log("Đã được 10p");
-},600000);
+setInterval(function () {
+  console.log("Đã được 10p");
+}, 600000);
 
 
-var b = setInterval(function(){
+var b = setInterval(function () {
   console.log("B")
-},1000)
+}, 1000)
 
-setTimeout(function(){
+setTimeout(function () {
   clearInterval(b)
-},5000);
+}, 5000);
 
-console.log(typeof(b));
+console.log(typeof (b));
 
-var array = "HTML, CSS, JavaScript";
+var array = "HTML,   CSS,      JavaScript";
 
-console.log(array.split(',',2))
+array = array.replace(/\s+/gi,"");
+
+
+array = array.replace(/,+/g, " ");
+
+console.log(array)
+
+var a = array.split(' ')
+
+console.log(a)
